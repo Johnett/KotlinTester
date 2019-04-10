@@ -1,0 +1,7 @@
+<resources>
+
+  <dimen name="empty_text_size">28sp</dimen>
+  <dimen name="list_text_spacing">6dp</dimen>
+  <dimen name="toolbar_elevation">4dp</dimen>
+
+</resources>

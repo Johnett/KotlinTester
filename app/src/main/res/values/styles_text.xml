@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <style name="KotlinetesterText"/>
+    
+    <style name="KotlinetesterText.EditTextHint">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/darkLighten</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:inputType">textPersonName|textCapWords|textAutoCorrect</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_marginTop">4dp</item>
+    </style>
+
+    <style name="KotlinetesterText.EditTextHintMultipleLine">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:fontFamily">@font/lato</item>
+        <item name="android:textColor">@color/darkLighten</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:layout_marginLeft">4dp</item>
+        <item name="android:layout_marginRight">4dp</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:layout_marginTop">4dp</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+    <style name="KotlinetesterText.EditTextTitle">
+        <item name="android:textColor">@color/colorAccent_pressed</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginRight">8dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:fontFamily">@font/lato_bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    
+</resources>

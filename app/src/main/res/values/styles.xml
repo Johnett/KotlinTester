@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="AppTheme" parent="AppThemeParent"/>
+
+    <style name="PrimaryDarkButton" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">#fff</item>
+        <item name="backgroundTint">@color/darkerGray</item>
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+</resources>

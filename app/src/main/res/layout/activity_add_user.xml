@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUser">
+
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="match_parent"
+                                                     android:layout_height="55dp"
+                                                     android:id="@+id/appBar"
+                                                     android:background="@color/colorTransparent"
+                                                     app:layout_constraintEnd_toEndOf="parent"
+                                                     app:layout_constraintStart_toStartOf="parent"
+                                                     app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar android:layout_width="match_parent"
+                                           android:layout_height="match_parent"
+                                           android:id="@+id/toolBar"
+                                           android:background="@drawable/toolbar_background">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:id="@+id/tvToolbarText"
+                      android:text="@string/add_user"
+                      android:fontFamily="@font/lato_black"
+                      android:textColor="@color/lighterGray"
+                      android:textSize="20sp"
+                      android:gravity="center|center_vertical"
+            />
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <LinearLayout android:layout_width="0dp"
+                  android:layout_height="0dp"
+                  app:layout_constraintBottom_toBottomOf="parent"
+                  app:layout_constraintEnd_toEndOf="parent"
+                  app:layout_constraintStart_toStartOf="parent"
+                  app:layout_constraintTop_toBottomOf="@+id/appBar">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:paddingLeft="16dp"
+                      android:paddingRight="16dp"
+                      android:paddingBottom="32dp"
+                      android:paddingTop="8dp"
+        >
+
+            <TextView
+                android:text="@string/str_name"
+                style="@style/KotlinetesterText.EditTextTitle"
+            />
+
+            <EditText
+                android:id="@+id/etName"
+                android:hint="@string/str_hint_name"
+                android:nextFocusDown="@+id/etAge"
+                tools:ignore="Autofill"
+                style="@style/KotlinetesterText.EditTextHint"
+            />
+
+            <TextView
+                android:text="@string/str_age"
+                style="@style/KotlinetesterText.EditTextTitle"
+            />
+
+            <EditText
+                android:id="@+id/etAge"
+                android:hint="@string/str_hint_age"
+                android:nextFocusDown="@+id/etAddress"
+                tools:ignore="Autofill"
+                style="@style/KotlinetesterText.EditTextHint"
+            />
+
+            <TextView
+                android:text="@string/str_address"
+                style="@style/KotlinetesterText.EditTextTitle"
+            />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:hint="@string/str_hint_address"
+                android:nextFocusDown="@+id/etDescription"
+                tools:ignore="Autofill"
+                style="@style/KotlinetesterText.EditTextHintMultipleLine"
+            />
+
+            <TextView
+                android:text="@string/str_description"
+                style="@style/KotlinetesterText.EditTextTitle"
+            />
+
+            <EditText
+                android:id="@+id/etDescription"
+                android:hint="@string/str_hint_address"
+                tools:ignore="Autofill"
+                style="@style/KotlinetesterText.EditTextHintMultipleLine"
+            />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

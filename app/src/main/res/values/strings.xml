@@ -1,0 +1,130 @@
+<resources>
+
+    <string name="app_name">Kotlin Test</string>
+    <string name="app_name_x">Kotlin Test %1$s</string>
+
+    <string name="no_sites_added">No sites added!</string>
+
+    <string name="about">About</string>
+    <string name="about_body"><![CDATA[
+        A simple app designed by <b>Aidan Follestad</b>.<br/>
+        <a href=\'https://af.codes\'>Website</a>&nbsp;&nbsp;
+        <a href=\'https://twitter.com/afollestad\'>Twitter</a>&nbsp;&nbsp;
+        <a href=\'https://github.com/afollestad\'>GitHub</a>&nbsp;&nbsp;
+        <a href=\'https://www.linkedin.com/in/afollestad\'>LinkedIn</a>
+        <br/><br/><i>Nock Nock is open source! Check out the <a href=\'https://github.com/afollestad/nock-nock\'>GitHub page</a>!</i>
+        <br/>Icon by <a href=\'https://plus.google.com/+KevinAguilarC\'>Kevin Aguilar</a> of <b>221 Pixels</b>.
+  ]]></string>
+    <string name="dark_mode">Dark Mode</string>
+
+    <string name="dismiss">Dismiss</string>
+    <string name="add_site">Add Site</string>
+    <string name="site_name">Site Name</string>
+    <string name="site_name_hint">Site display name</string>
+    <string name="site_url">Site URL</string>
+    <string name="site_url_hint">https://yoursite.com</string>
+    <string name="site_tags">Site Tags</string>
+    <string name="site_tags_hint">e.g. One,Two,Three</string>
+    <string name="site_tags_hint_full">Tags (e.g. One,Two,Three)</string>
+    <string name="please_enter_name">Please enter a name!</string>
+    <string name="please_enter_url">Please enter a URL.</string>
+    <string name="please_enter_valid_url">Please enter a valid URL.</string>
+    <string name="please_enter_search_term">Please input a search term.</string>
+    <string name="please_enter_networkTimeout">Please enter a network timeout greater than 0.
+    </string>
+    <string name="please_enter_validCertUri">Certificate should be a valid file or content URI.
+    </string>
+
+    <string name="options">Options</string>
+    <string name="remove_site">Remove Site</string>
+    <string name="duplicate_and_modify">Duplicate and Modify</string>
+    <string name="remove_site_prompt"><![CDATA[Remove <b>%1$s</b> from your sites?]]></string>
+    <string name="remove">Remove</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="view_site">View Site</string>
+    <string name="last_check_result">Last Validation Result</string>
+    <string name="next_check">Next Validation</string>
+    <string name="next_check_x">Next Validation: %1$s</string>
+    <string name="now">Now</string>
+    <string name="none">None</string>
+
+    <string name="disable_automatic_checks">Disable Automatic Validation</string>
+    <string name="disable_automatic_checks_prompt"><![CDATA[
+      Disable automatic validation for <b>%1$s</b>? The site will not be checked in the background
+      until you re-enable validation by tapping the checkmark (Save) icon. You can still manually
+      perform validation by tapping the Refresh icon at the top of this page.
+  ]]></string>
+    <string name="disable">Disable</string>
+    <string name="renable_and_save_changes">Enable Auto Validation &amp; Save Changes</string>
+
+    <string name="response_timeout">Network Response Timeout (ms)</string>
+    <string name="response_timeout_default">10000</string>
+
+    <string name="ssl_certificate">SSL Certificate</string>
+    <string name="ssl_certificate_automatic">(Automatic)</string>
+    <string name="ssl_certificate_browse">Browse</string>
+
+    <string name="refresh_status">Refresh Status</string>
+
+    <string name="warning_http_url">
+        Warning: this app validates sites availability with HTTP requests. It\'s recommended that
+        you
+        use an HTTP URL.
+    </string>
+    <string name="response_validation_mode">Response Validation Mode</string>
+    <string name="search_term">Search term…</string>
+
+    <string name="validation_mode_status_desc">
+        The HTTP status code is checked. If it\'s a successful status code, the site passes
+        validation.
+    </string>
+    <string name="validation_mode_term_desc">
+        The status code check is done first. If it\'s successful, the response body is checked.
+        If it contains your search term, the site passes validation.
+    </string>
+    <string name="validation_mode_javascript_desc">
+        The status code check is done first. If it\'s successful, the response body is passed to the
+        JavaScript function above. If the function returns true, the site passes validation. Throw
+        an
+        exception to pass custom error messages to Nock Nock.
+    </string>
+
+    <string name="support_me">Donate</string>
+    <string name="support_me_message"><![CDATA[
+      <b>Nock Nock</b> was created and is maintained by one person. Donations are <b>much</b>
+      appreciated and encourage continued support.
+  ]]></string>
+    <string name="thank_you">Thank you very much!</string>
+    <string name="next">Next</string>
+
+    <string name="install_web_browser">Please install a web browser app, such as Google Chrome.
+    </string>
+
+
+    <!--Splash Activity-->
+    <string name="main_text">Kotlin Tester</string>
+
+    <!--Main Activity-->
+    <string name="toolbar_text">Kotlin Tester</string>
+    <string name="button_add_user">Add User</string>
+    <string name="no_user_found">No user found!</string>
+
+    <!--Add User-->
+    <string name="add_user">Add user</string>
+
+    <string name="str_name">Name</string>
+    <string name="str_age">Age</string>
+    <string name="str_address">Address</string>
+    <string name="str_description">Description</string>
+
+    <string name="error_name">Please enter a name</string>
+    <string name="error_age">Please enter age</string>
+    <string name="error_address">Please enter address</string>
+    <string name="error_description">Please enter description</string>
+
+    <string name="str_hint_name">User full name</string>
+    <string name="str_hint_age">User age</string>
+    <string name="str_hint_address">User complete address</string>
+    <string name="str_hint_description">Brief description about you</string>
+
+</resources>
